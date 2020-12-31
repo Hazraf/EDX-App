@@ -14,10 +14,10 @@
         style="@style/bold_grey_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginBottom="@dimen/widget_margin"
+        android:layout_marginStart="@dimen/widget_margin"
+        android:layout_marginEnd="@dimen/widget_margin"
+        android:layout_marginTop="@dimen/widget_margin_double"
         android:gravity="center"
         android:textAllCaps="true"
         android:textSize="17sp" />
@@ -25,8 +25,8 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="2dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginStart="@dimen/widget_margin_double"
+        android:layout_marginEnd="@dimen/widget_margin_double"
         android:background="@color/neutralLight" />
 
     <LinearLayout
@@ -42,9 +42,9 @@
             style="@style/regular_edx_black_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
+            android:layout_margin="@dimen/widget_margin_double"
             android:gravity="center_horizontal"
-            android:textSize="14sp" />
+            android:textSize="@dimen/edx_small" />
     </LinearLayout>
 
     <TextView
@@ -79,7 +79,7 @@
             android:layout_weight="1"
             android:background="@android:color/white"
             android:gravity="center"
-            android:padding="10dp"
+            android:padding="@dimen/widget_margin"
             android:text="@string/do_not_allow"
             android:textAllCaps="true"
             android:textSize="15sp" />
@@ -99,7 +99,7 @@
             android:background="@android:color/white"
             android:text="@string/allow"
             android:textAllCaps="true"
-            android:padding="10dp"
+            android:padding="@dimen/widget_margin"
             android:textSize="15sp" />
     </LinearLayout>
 

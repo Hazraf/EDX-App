@@ -24,10 +24,10 @@
         android:background="@color/transparent_white_85"
         android:minHeight="@dimen/course_detail_card_height"
         android:orientation="vertical"
-        android:paddingBottom="@dimen/widget_margin"
-        android:paddingEnd="@dimen/widget_margin"
         android:paddingStart="@dimen/widget_margin"
-        android:paddingTop="@dimen/widget_margin">
+        android:paddingTop="@dimen/widget_margin"
+        android:paddingEnd="@dimen/widget_margin"
+        android:paddingBottom="@dimen/widget_margin">
 
         <TextView
             android:id="@+id/course_name"

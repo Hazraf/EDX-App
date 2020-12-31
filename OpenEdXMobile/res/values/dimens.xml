@@ -75,9 +75,10 @@
     <dimen name="login_edx_logo_height">125dp</dimen>
     <dimen name="login_logo_margin_top">20dp</dimen>
     <dimen name="login_logo_margin_bottom">15dp</dimen>
-    <dimen name="login_logo_margin_horizontal">44dp</dimen>
+    <dimen name="login_margin_horizontal">44dp</dimen>
     <dimen name="login_social_divider_margin_top">20dp</dimen>
     <dimen name="login_social_divider_margin_bottom">15dp</dimen>
+    <dimen name="login_field_horizontal_padding">-4dp</dimen>
 
     <!-- Sign up -->
     <dimen name="signup_social_title_margin">5dp</dimen>
@@ -115,10 +116,13 @@
     <dimen name="video_player_seekbar_right_margin">6dp</dimen>
     <dimen name="video_player_duration_padding">4dp</dimen>
     <dimen name="video_player_settings_divider_height">@dimen/edx_divider_length</dimen>
+    <dimen name="video_player_controls_padding">7dp</dimen>
+    <dimen name="video_player_controls_horizontal_padding">13dp</dimen>
 
     <!-- Video Player Settings popup dimen values-->
     <dimen name="settings_popup_height">80dp</dimen>
     <dimen name="settings_popup_width">150dp</dimen>
+    <dimen name="video_dialog_margin">0.5dp</dimen>
 
     <!-- row height for CC language options, NONE option and the header of popup -->
     <dimen name="row_height_cc_option">40dp</dimen>
@@ -162,6 +166,7 @@
     <dimen name="edx_x_large">21sp</dimen>
     <dimen name="edx_large">18sp</dimen>
     <dimen name="edx_base">16sp</dimen>
+    <dimen name="edx_medium">15sp</dimen>
     <dimen name="edx_small">14sp</dimen>
     <dimen name="edx_x_small">12sp</dimen>
     <dimen name="edx_xx_small">11sp</dimen>
@@ -216,10 +221,6 @@
     <dimen name="subject_item_height">60dp</dimen>
     <dimen name="subject_item_width_in_grid">155dp</dimen>
     <dimen name="subject_item_height_in_grid">80dp</dimen>
-    <!--<dimen name="subject_item_width">155dp</dimen>
-    <dimen name="subject_item_height">80dp</dimen>
-    <dimen name="subject_item_width_in_grid">170dp</dimen>
-    <dimen name="subject_item_height_in_grid">97dp</dimen>-->
     <dimen name="subject_item_corner_radius">5dp</dimen>
 
     <!-- Unorganized -->
@@ -273,8 +274,5 @@
     <dimen name="dates_badge_icon_end_padding">-4dp</dimen>
     <item name="course_date_title_line_spacing" type="dimen" format="float">1.25</item>
     <item name="course_date_desc_line_spacing" type="dimen" format="float">1.125</item>
-
-    <!--  Video Dialog -->
-    <dimen name="video_dialog_button_text_size">15sp</dimen>
 
 </resources>

@@ -6,7 +6,7 @@
     android:clickable="true"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="10dp" >
+    android:padding="@dimen/widget_margin">
 
     <TextView
         android:id="@+id/error_header"

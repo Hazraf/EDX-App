@@ -6,8 +6,8 @@
         android:id="@+id/rl_root"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:background="@drawable/launch_background"
-        android:splitMotionEvents="false">
+        android:splitMotionEvents="false"
+        tools:background="@drawable/launch_background">
 
         <ImageView
             android:id="@+id/edx_logo"
@@ -23,10 +23,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:layout_marginBottom="35dp"
             android:layout_marginStart="50dp"
-            android:layout_marginEnd="50dp"
             android:layout_marginTop="25dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="35dp"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -36,11 +36,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_gravity="center_vertical"
-                android:layout_marginBottom="5dp"
+                android:layout_marginBottom="@dimen/widget_margin_half"
                 android:background="@drawable/edx_brand_button"
                 android:contentDescription="@string/sign_up_and_learn"
                 android:focusable="true"
-                android:padding="5dp"
+                android:padding="@dimen/widget_margin_half"
                 android:text="@string/sign_up_and_learn"
                 android:textColor="@android:color/white"
                 android:textSize="16sp" />
@@ -50,7 +50,7 @@
                 style="@style/bold_text"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="@dimen/widget_margin"
                 android:background="@drawable/light_selectable_rounded_box_overlay"
                 android:focusable="true"
                 android:gravity="center"

@@ -1,10 +1,9 @@
 package org.edx.mobile.services;
 
 import android.content.Context;
-import android.os.Build;
-import androidx.annotation.NonNull;
 import android.webkit.CookieManager;
-import android.webkit.CookieSyncManager;
+
+import androidx.annotation.NonNull;
 
 import com.google.inject.Inject;
 

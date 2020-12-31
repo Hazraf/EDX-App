@@ -57,7 +57,7 @@
             android:layout_height="36dp"
             android:background="?attr/selectableItemBackground"
             android:contentDescription="@string/share_accomplishment_button"
-            android:padding="10dp"
+            android:padding="@dimen/widget_margin"
             android:scaleType="fitCenter"
             android:src="@drawable/abc_ic_menu_share_mtrl_alpha"
             android:tint="@color/primaryBaseColor" />
