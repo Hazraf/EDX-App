@@ -2,7 +2,7 @@
 
 pipeline {
     agent {
-     label 'android-worker'
+     label any
     }
 
     environment {
